@@ -1,0 +1,157 @@
+body {
+	background-color: #246;
+	color: #fff;
+	text-align: center;
+	transition-timing-function: linear;
+}
+
+
+
+/* for search box */
+#mainBox {
+	position: relative;
+	background-color: #357;
+	width: 340px;
+	margin: auto;
+	margin-top: 250px;
+	padding: 15px;
+	border-radius: 6px;
+	font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+	font-size: 16px;
+}
+
+#randomLink {
+	color: #fff;
+}
+
+#randomLink:hover {
+	text-decoration: none;
+}
+
+#searchDiv {
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 45px;
+	background-color: #357;
+	border: 4px solid #F27929;
+	border-radius: 50px;
+	width: 45px;
+	
+}
+#searchDiv:hover {
+	cursor: pointer;
+}
+
+#searchDivHandle {
+	position: absolute;
+	left: 185px;
+	top: 90px;
+	width: 20px;
+	height: 3px;
+	background-color: #F27929;
+	transform: rotate(45deg);
+	transform-origin: top left;
+}
+
+#searchInput {
+	display: none;
+	margin-top: 8px;
+	margin-left: 10px;
+	background-color: #357;
+	border: none;
+	width: 0px;
+	font-size: 14px;
+}
+
+#closeSearchDiv {
+	display: none;
+	background-color: #357;
+	position: absolute;
+	top: 65px;
+	left: 263px;
+	width: 20px;
+	height: 19px;
+}
+
+#closeSearchDivElement1 {
+	position: absolute;
+	top: -4px;
+	right: -5px;
+	width: 3px;
+	height: 0px;
+	background-color: #F27929;
+	transform: skew(-45deg);
+	transform-origin: top right;
+}
+
+#closeSearchDivElement2 {
+	position: absolute;
+	bottom: -4px;
+	right: -5px;
+	width: 3px;
+	height: 0px;
+	background-color: #F27929;
+	transform: skew(45deg);
+	transform-origin: bottom right;
+}
+/* ----------- */
+
+
+
+/* for results */
+.resultPanel {
+	position: relative;
+	background-color: #ddd;
+	color: #000;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 20px;
+	text-align: left;
+}
+
+.resultPanel > a {
+	text-decoration: none;
+	color: #000;
+	font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+.resultPanel > a > p:nth-child(1) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.resultPanel > a > p:nth-child(2) {
+	font-size: 14px;
+}
+
+.leftBorderDiv {
+	display: none;
+	position: absolute;
+	left: -5px;
+	top: 0px;
+	width: 5px;
+	height: 100%;
+	background-color: #F27929;
+}
+
+.resultPanel:hover > .leftBorderDiv {
+	display: block;
+}
+
+#noResultsDiv {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #ddd;
+}
+/* ----------- */
+
+
+
+/* my footer */
+#byDiv {
+	color: #395979;
+	margin-bottom: 15px;
+}

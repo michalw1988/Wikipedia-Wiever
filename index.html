@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>WikiViewer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Bootstrap, Font Awesome and jQuery files -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- My own CSS file -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- JS logic -->
+		<script src="script.js"></script> 
+	</head>
+	
+	<body>
+		<!-- main search box -->
+		<div id="mainBox">
+			<a id="randomLink" href="https://pl.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+			<br>
+			<div id="searchDiv">
+				<input id="searchInput" type="text">
+				<div id="closeSearchDiv"> <!-- "X" to close the search box -->
+					<div id="closeSearchDivElement1"></div> <!-- 1st "X" element -->
+					<div id="closeSearchDivElement2"></div> <!-- 2nd "X" element -->
+				</div>
+				<div id="searchDivHandle"></div> <!-- magnifier handle -->
+			</div>
+			<div>Click icon to search</div>
+		</div>
+		
+		<!-- for results below the search box -->
+		<div id="searchResults"></div>
+		
+		<!-- my footer -->
+		<div id="byDiv">by Michał Wiśniewski (MW Projects)</div>		
+	</body>
+<html>
